@@ -1,0 +1,27 @@
+.Todo-buttons {
+   flex-shrink: 0;
+   padding-left: 0.7em;
+}
+.Todo-buttons button {
+   border: none;
+   font-size: 1em;
+   margin: 0.4em;
+   background: none;
+   -webkit-appearance: none;
+   cursor: pointer;
+   color: #fff;
+}
+.Todo-edit {
+   display: flex;
+   flex-wrap: wrap;
+}
+.Todo-edit button {
+   padding: 0 1.3rem;
+   border: none;
+   background: red;
+   color: white;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-left: 5px;
+   cursor: pointer;
+}
